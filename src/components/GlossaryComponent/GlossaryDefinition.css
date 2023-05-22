@@ -8,7 +8,8 @@
 
 .glossaryComponentText {
     margin: auto;
-    width: 50%;
+    width: 25rem;
+    padding-left: 10rem;
 }
 
 .glossaryBG {
