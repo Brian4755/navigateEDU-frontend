@@ -6,8 +6,10 @@ export default function Footer() {
         <div className='footer'>
             <p>© 2023 navigatedu. All right reserved.</p>
             <div>
-                <Link to='/privacy-policy' className="footerLink">Privacy Policy</Link>
-                <Link to='/terms-of-service' className="footerLink">Terms of Service</Link>
+                <p to='/privacy-policy' className="footerLink">Privacy Policy</p>
+            </div>
+            <div>
+                <p to='/terms-of-service' className="footerLink">Terms of Service</p>
             </div>
         </div>
     )

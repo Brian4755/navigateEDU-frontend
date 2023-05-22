@@ -19,9 +19,15 @@
     margin: auto 20px;
     font-weight: 400;
     font-size: 14px;
+    /* cursor: not-allowed; */
+
 }
 
 .footerLink:hover {
     color: #AAAAAA;
     text-decoration: underline;
+}
+
+.footer p {
+    width: 85%;
 }
