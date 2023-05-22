@@ -42,18 +42,18 @@ const App = () => {
     setUser(authService.getUser())
   }
 
-  const URL = "https://navigatedu-api.herokuapp.com/"
-  // const URL = "http://localhost:4000/"
+//   const URL = "https://navigatedu-api.herokuapp.com/"
+//   // const URL = "http://localhost:4000/"
 
-  const getData = async () => {
-    const response = await fetch(URL+language);
-    const data = await response.json();
-    setData(data);
-};
+//   const getData = async () => {
+//     const response = await fetch(URL+language);
+//     const data = await response.json();
+//     setData(data);
+// };
 
 
-  let trigger = useMemo(() => ({language}), [language]);
-  useEffect(()=> {getData()}, [trigger])
+//   let trigger = useMemo(() => ({language}), [language]);
+//   useEffect(()=> {getData()}, [trigger])
 
   function AppRender() {
     return (
