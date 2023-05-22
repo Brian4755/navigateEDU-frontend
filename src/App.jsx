@@ -120,8 +120,8 @@ const App = () => {
     </>
   )
   }
-  return Data ? AppRender() : console.log("loading")
-  // return AppRender()
+  // return Data ? AppRender() : console.log("loading")
+  return AppRender()
 }
 
 export default App
